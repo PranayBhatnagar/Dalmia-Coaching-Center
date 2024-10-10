@@ -1,0 +1,26 @@
+# allen.ac.in robot file
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /css
+Disallow: /js
+Disallow: /AWStats
+Disallow: /distance_learning-old
+Disallow: /victory-celebration/
+Disallow: http://www.allen.ac.in/apps/session1314/intResults/M/CCP/
+Disallow: http://www.allen.ac.in/apps/session1314/intResults/E/CCP/
+Disallow: http://www.allen.ac.in/apps/session1314/intResults/T/CCP/
+Disallow: http://www.allen.ac.in/apps/session1314/intResults/Pre-Nurture/
+Disallow: http://www.allen.ac.in/apps/session1213/intResults/ALLENAIIMS/
+Disallow: /ahmedabad/tallentex/
+Disallow: /2013-14/
+Disallow: /2014-15/
+Disallow: /2015-16/
+Disallow: /2016-17/
+Disallow: /2017-18/
+Disallow: /2018-19/
+Disallow: /2019-20/
+Disallow: /2020-21/
+Disallow: /imagegallery/
+Allow: /apps/selection-results/
+Allow: /images
+Sitemap: https://www.allen.ac.in/sitemap.xml

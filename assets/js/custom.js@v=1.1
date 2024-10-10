@@ -1,0 +1,345 @@
+/* Write here your custom javascript codes */
+
+
+jQuery(document).ready(function($) {
+
+  var windowWidth = $(window).width();
+
+    $('.footer-section .footer-new-wrp .heading_nf').click(function(){
+        if(windowWidth < 768) {
+          $(this).toggleClass("active");
+          $(this).next('.f_links').slideToggle();
+        }
+    });
+    
+    $(window).scroll(function(){
+    if ($(this).scrollTop() > 150) {
+       $(".header-top").addClass("show");
+    }
+    });
+  	$(".header-top .header-top-crose a").click(function(){
+       $(".header-top").addClass("hide");
+    });
+
+
+   $('.about-blog-section .tab-section .tabs ul li a').click(function(){
+       $('.about-blog-section .tab-section .tabs ul li a').removeClass('active');
+       $(this).addClass('active');
+
+       var tagid = $(this).attr('data-tag');
+       $('[data-tag = '+tagid+']').addClass('active');
+
+       $('.about-blog-section .tab-content-outer .tab-content').removeClass('show-cnt').addClass('hide-cnt');
+       $('#'+tagid).addClass('show-cnt').removeClass('hide-cnt');
+   });
+
+
+   $(".footer-section .our-centers-outer .centers-btns a").click(function(){
+        $(this).toggleClass("active")
+       $(".footer-section .our-centers-outer .centers-block").slideToggle();
+    });
+
+   
+
+
+   var owl = $('#scholarship-slider');
+     owl.owlCarousel({
+         autoplay:true,
+         autoplayTimeout:5000,
+         autoplayHoverPause:true,        
+         loop:true,
+         margin:10,
+         items:1,
+         nav: true,
+         dots: false,
+     })
+
+     var owl = $('#intellibrain-slider');
+     owl.owlCarousel({
+          autoplay:true,
+          autoplayTimeout:5000,
+          autoplayHoverPause:true,        
+          loop:true,
+          margin:10,
+          items:1,
+          nav: false,
+          dots: true,
+          responsive : {
+              767:{
+                  items:3,
+                  margin:20,
+                  dots: true,
+              },
+              475:{
+                  items:2,
+                  margin:10,
+                  dots: true,
+              }
+          },
+      })
+
+     var owl = $('#app-slider');
+     owl.owlCarousel({
+          autoplay:true,
+          autoplayTimeout:5000,
+          autoplayHoverPause:true,        
+          loop:true,
+          margin:0,
+          items:1,
+          nav: false,
+          dots: false,
+      })
+
+     var owl = $('#event-gallery-new');
+      owl.owlCarousel({
+          autoplay:true,
+          autoplayTimeout:5000,
+          autoplayHoverPause:true,        
+          loop:true,
+          margin:6,
+          items:1,
+          nav: true,
+          dots: false,
+          responsive : {
+              1191:{
+                  items:5,
+                  nav: true,
+              },
+              1024:{
+                  items:3,
+                  nav: true,
+              },
+              639:{
+                  items:2,
+                  nav: true,
+              }
+          },
+      })
+
+      var owl = $('#alumni-video');
+      owl.owlCarousel({
+          autoplay:true,
+          autoplayTimeout:5000,
+          autoplayHoverPause:true,        
+          loop:true,
+          margin:10,
+          items:1,
+          nav: true,
+          dots: false,
+          stagePadding: 0,
+          responsive : {
+              1191:{
+                 stagePadding: 100, 
+              },
+              1024:{
+                 stagePadding: 60, 
+              },
+              375:{
+                 stagePadding: 40, 
+              }
+          },
+      })
+
+      var owl = $('#home-blog-video');
+      owl.owlCarousel({
+          autoplay:true,
+          autoplayTimeout:5000,
+          autoplayHoverPause:true,        
+          loop:true,
+          margin:0,
+          items:1,
+          nav: false,
+          dots: true,
+      })
+
+      jQuery('#legend-slider1').owlCarousel({
+            loop: true,
+            items: 2,
+            autoplay: true,
+            margin: 15,
+            slideTransition: 'linear',
+            autoplayTimeout: 3000,
+            autoplaySpeed: 3000,
+            smartSpeed: 3000,
+            center: true,
+            autoplayHoverPause: false,
+            nav: false,
+            dots: false,
+            responsive : {
+              575:{
+                  items:3,
+              },  
+              767:{
+                  items:4,
+              },  
+              991:{
+                  items:5,
+              },  
+              1199:{
+                  items:6,
+              },
+              1300:{
+                  items:7,
+              },
+              1599:{
+                  items:8,
+              }
+            },
+        });
+
+      jQuery('#legend-slider2').owlCarousel({
+            loop: true,
+            rtl: true,
+            items: 2,
+            autoplay: true,
+            margin: 15,
+            slideTransition: 'linear',
+            autoplayTimeout: 2500,
+            autoplaySpeed: 2500,
+            smartSpeed: 2500,
+            center: true,
+            autoplayHoverPause: false,
+            nav: false,
+            dots: false,
+            responsive : {
+              575:{
+                  items:3,
+              },  
+              767:{
+                  items:4,
+              },  
+              991:{
+                  items:5,
+              },  
+              1199:{
+                  items:6,
+              },
+              1300:{
+                  items:7,
+              },
+              1599:{
+                  items:8,
+              }
+            },
+        });
+
+      jQuery('#legend-slider3').owlCarousel({
+            loop: true,
+            items: 2,
+            autoplay: true,
+            margin: 15,
+            slideTransition: 'linear',
+            autoplayTimeout: 3000,
+            autoplaySpeed: 3000,
+            smartSpeed: 3000,
+            center: true,
+            autoplayHoverPause: false,
+            nav: false,
+            dots: false,
+            responsive : {
+              575:{
+                  items:3,
+              },  
+              767:{
+                  items:4,
+              },  
+              991:{
+                  items:5,
+              },  
+              1199:{
+                  items:6,
+              },
+              1300:{
+                  items:7,
+              },
+              1599:{
+                  items:8,
+              }
+            },
+        });
+
+
+     var videoSrc = $("#allenVideo iframe").attr("src");
+      $('#allenVideo').on('show.bs.modal', function () { // on opening the modal
+        // set the video to autostart
+        $("#allenVideo iframe").attr("src", videoSrc+"&amp;autoplay=1");
+      });
+
+      $("#allenVideo").on('hidden.bs.modal', function (e) { // on closing the modal
+        // stop the video
+        $("#allenVideo iframe").attr("src", null);
+      });
+
+      $(window).on('load',function(){
+          var owl = $('.owl-carousel-test');
+          owl.owlCarousel({
+              loop: true,
+              nav: true,
+              dots: false,
+              center: true,
+              autoplay: true,
+              autoplayTimeout: 100000,
+              autoplayHoverPause: true,
+              margin: 10,
+              responsive: {
+                  0: {
+                      items: 1,
+                      stagePadding: 0,
+                  },
+                  768: {
+                      items: 1,
+                      stagePadding: 70,
+                      autoWidth: true,
+                  },
+                  1000: {
+                      items: 1,
+                      stagePadding: 200,
+                      autoWidth: true,
+                  }
+              }
+          });
+          owl.on('mousewheel', '.owl-stage', function(e) {
+              if(e.deltaY > 0) {
+                  owl.trigger('next.owl');
+              } else {
+                  owl.trigger('prev.owl');
+              }
+              e.preventDefault();
+          });
+
+          var owl = $('#event-gallery-new');
+          owl.owlCarousel({
+             
+				  autoplay:true,
+                  autoplayTimeout:5000,
+                  autoplayHoverPause:true,        
+                  loop:true,
+                  margin:6,
+                  items:1,
+                  nav: true,
+                  dots: false,
+                  responsive : {
+                      1191:{
+                          items:5,
+                          nav: true,
+                      },
+                      1024:{
+                          items:3,
+                          nav: true,
+                      },
+                      639:{
+                          items:2,
+                          nav: true,
+                      }
+					  
+                  },
+				    
+              })
+		
+		 
+  });
+
+
+
+      
+});

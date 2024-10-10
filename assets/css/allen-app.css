@@ -1,0 +1,158 @@
+
+.our-apps-section {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  margin-top: 40px;
+}
+
+.our-apps-section .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-apps-section .row .col-md-6 {
+  margin-bottom: 30px;
+}
+
+
+.our-app-box {
+  float: left;
+  width: 100%;
+  background-color: #f5f5f5;
+  border: 1px solid #d2d2d2;
+  display: flex;
+  height: 100%;
+}
+.our-app-box .cnt {
+  width: calc(100% - 182px);
+  padding: 10px 15px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.our-app-box .cnt h2 {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  color: #141d27;
+  margin: 0 0 5px 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.our-app-box .cnt p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #4b4b4b;
+  font-weight: 400;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+.our-app-box .cnt .app-btn {
+  position: absolute;
+  left: -1px;
+  bottom: 12px;
+  background-color: #475a6c;
+  padding: 8px 20px 8px 12px;
+  height: 36px;
+  border-radius: 0 20px 20px 0;
+  -moz-border-radius: 0 20px 20px 0;
+  -webkit-border-radius: 0 20px 20px 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.our-app-box .cnt .app-btn:before {
+  display: inline-block;
+  vertical-align: top;
+  width: 24px;
+  height: 24px;
+  content: "";
+  background-image: url(https://www.allen.ac.in/assets/img/app-icon/android-icon.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position:center;
+  margin: -2px 6px 0 0;
+}
+.our-app-box .cnt .app-btn.iphone:before {
+  background-image: url(https://www.allen.ac.in/assets/img/app-icon/iphone-icon.png);
+}
+.our-app-box .cnt .app-btn + .app-btn {
+  left: 150px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+} 
+.our-app-box .cnt .app-btn:hover {
+  background-color: #3365c6;
+}
+
+.our-app-box .app-img {
+  width: 182px;
+  background-color: #e6e6e6;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-app-box .app-img img {
+  display: flex;
+  margin: auto;
+}
+.our-app-box .app-img:before {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  border-right:10px solid #e6e6e6;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  content: ""; 
+  z-index: 1;
+}
+
+@media only screen and (max-width:1199px) {
+  .our-app-box .cnt .app-btn {
+    padding: 8px 10px 8px 8px;
+    font-size: 12px;
+  }
+  .our-app-box .cnt .app-btn + .app-btn {
+    left: 122px;
+  }
+}
+
+@media only screen and (max-width:479px) {
+  .our-app-box {
+    flex-wrap: wrap;
+  }
+  .our-app-box .cnt {
+    width: 100%;
+    order: 2;
+  }
+  .our-app-box .app-img {
+    width: 100%;
+    order: 1;
+  }
+  .our-app-box .app-img:before {
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent; 
+    border-bottom: none; 
+    border-top:10px solid #e6e6e6;
+    right: 50%;
+    top: 100%;
+    margin-right: -5px;
+  }
+}

@@ -1,0 +1,709 @@
+@media only screen and (max-width:1440px) {
+	.event-gallery .gallery-box img {
+		height: 190px;
+	}
+}
+
+@media only screen and (max-width:1199px) { 
+	.explore-update-section .app-icon-block img {
+		max-height: 30px;
+	}
+	.about-allen-section .left-section {
+		width: calc(100% - 400px);
+	}
+	.about-allen-section .right-section {
+		width: 400px;
+	}
+	.about-allen-section .right-section .two-block .counter-box {
+		height: 195px;
+	}
+	.about-allen-section .right-section .two-block .counter-box .icon {
+		margin: 15px 0;
+	}
+	.about-allen-section .right-section .two-block.three .counter-box .icon {
+		margin: 20px 0;
+	}
+	.about-allen-section .right-section .two-block .counter-box .icon img {
+		width: 50px;
+	}
+	.about-allen-section .right-section .two-block .counter-box .cnt h2 {
+		font-size: 24px;
+		line-height: 34px;
+	}
+	.alumni-new-section .alumni-inner {
+		padding: 30px 350px 30px 30px;
+	}
+	.alumni-new-section2.alumni-new-section .alumni-inner {
+		background-size: auto 40%;
+	}
+	.globalstudies-section .globalstudies-outer .globalstudies-inner {
+		padding: 30px 350px 30px 30px;
+	}
+	.allen-estore-section .estore-outer .estore-block .estore-cnt {
+		padding-left: 20px;
+	}
+	/*.header-top .center-cnt {
+		text-align: left;
+		padding-left: 130px;
+	}*/
+	/*.header-top.new .right-link p {
+		width: 100px;
+		font-size: 12px;
+		line-height: 16px;
+		margin: -3px 0 0 0;
+	}*/
+
+	.header-top.new .center-cnt .cnt-inner {
+		padding: 7px 5px;
+	}
+	.header-top.new .new-center-cnt {
+		font-size: 15px;
+	}
+	
+
+}
+@media only screen and (max-width:991px) { 
+	.explore-update-section {
+		padding: 0;
+	}
+	.allen-alumni-section {
+		margin-top: 30px;
+		position: relative;
+		padding-bottom: 20px;
+	}
+	.allen-alumni-section:after {
+		background-image: url(https://www.allen.ac.in/img/new-footer/alumni-bg2.png);
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: bottom center;
+		height: 100%;
+		width: 100%;
+		top: auto;
+		bottom: 0;
+	}
+	.allen-alumni-cnt .alumni-button a {
+		margin-top: 0;
+	}
+	.allen-alumni-cnt {
+		padding: 0 15px;
+	}
+	.explore-update-section .explore-box {
+		margin-top: 15px;
+	}
+
+	.footer-section .address-block {
+		padding: 10px 0;
+	}
+
+	.footer-section .address-block .address-box {
+		border-bottom: 1px solid #000;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+	.footer-section .address-block .address-box.mail, .footer-section .address-block .address-box.phone {
+		border-bottom: none;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	.footer-section .copyright-section .footer-social ul li {
+		padding: 0 15px;
+	}
+	.footer-section .terms-section .terms-block {
+		width: 100%;
+		text-align: center;
+		margin-top: 5px;
+	}
+	.footer-section .terms-section .newsletter-block {
+		float: none;
+		display: inline-block;
+		width: 100%;
+		max-width: 300px;
+		margin-top: 15px;
+	}
+	.online-store-block a {
+		max-width: 120px;
+	}
+	.online-store-block a + a {
+		float: left;
+		margin-left: 5px;
+	}
+	.explore-update-section .app-icon-block img {
+		max-height: 36px;
+	}
+	.about-allen-section .left-section {
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+	.about-allen-section .right-section {
+		width: 100%;
+		margin-top: 10px;
+	}
+	.about-allen-section .left-section p {
+		text-align: center;
+	}
+	.alumni-new-section .alumni-inner {
+		padding: 20px 220px 20px 20px;
+		background-size: auto 70%;
+	}
+	.alumni-new-section .alumni-inner h2 {
+		font-size: 20px;
+		line-height: 34px;
+	}
+	.alumni-new-section .alumni-inner h2 span {
+		font-size: 24px;
+	}
+	.alumni-new-section .alumni-inner h3 {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.alumni-new-section .alumni-inner p {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.scholarship-allen-section .scholarship-block h2 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.scholarship-allen-section .container {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.about-blog-section .tab-content-outer {
+		height: 350px;
+	}
+	.about-allen-section {
+		padding: 20px 0;
+	}
+
+	.globalstudies-section .globalstudies-outer .globalstudies-inner {
+		padding: 90px 15px 15px 15px;
+		background-size: 200px auto;
+		background-position: center 15px;
+	}
+	.globalstudies-section .globalstudies-outer .globalstudies-inner h2 {
+		font-size: 20px;
+		line-height: 34px;
+		margin-bottom: 1px;
+	}
+	.allen-app-section .app-cont {
+		padding: 60px 0 20px 0px;
+	}
+	.allen-app-section .app-cont .btn-outer img {
+		max-width: 140px;
+	}
+	.allen-app-section .app-cont .btn-outer .btn {
+		height: 41px;
+	}
+	.allen-app-section .app-cont .btn-outer .btn {
+		padding: 8px 10px;
+		margin-left: 10px;
+		
+	}
+	
+	.allen-app-section .app-cont .btn-outer .btn-getapp {
+		padding: 8px 20px;
+		margin-left: 10px;
+	}
+	.about-allen-section .right-section .two-block .counter-box {
+		margin: 0 5px;
+	}
+	.newsletter-newsection {
+		padding: 20px 0;
+	}
+	.newsletter-newsection .newsletter-inner:before {
+		width: 160px;
+	}
+	.newsletter-newsection .newsletter-inner {
+		padding-left: 150px;
+	}
+	.alumni-new-section2.alumni-new-section .alumni-inner {
+		width: 100%;
+		background-image: none;
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	.alumni-new-section2.alumni-new-section .alumni-video-block {
+		width: 100%;
+	}
+	.allen-estore-section .estore-outer .estore-block {
+		padding: 20px 15px 20px 0;
+	}
+	.allen-estore-section .estore-outer .estore-block .icon {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.allen-estore-section .estore-outer .estore-block .estore-cnt {
+		width: 100%;
+		padding-left: 0;
+		text-align: center;
+	}
+	.allen-estore-section .estore-outer .estore-block .estore-cnt h2 {
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 3px;
+	}
+	.allen-estore-section .estore-outer .estore-block .estore-cnt p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.allen-estore-section .estore-outer .other-store h2 {
+		margin-bottom: 15px;
+	}
+	.allen-estore-section .estore-outer .other-store p {
+		margin-bottom: 15px;
+	}
+	.allen-estore-section .estore-outer .other-store .store a {
+		margin-bottom: 10px;
+	}
+	.newsletter-newsection.new .newsletter-inner {
+		max-width: 100%;
+	}
+	.header-top .container {
+		width: 100%;
+	}
+	.header-top .center-cnt a {
+		font-size: 11px;
+	}
+
+	.header-top.new .new-center-cnt {
+		top: 6px;
+		margin-top: 0;
+	}
+	.top-menu-padding {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.top-menu-padding .mob-left-pad .mob-home {
+		line-height: 26px;
+	}
+	.topbar-toggler {
+		margin-top: 6px !important;
+	}
+	.digital-desktop-hide {
+		display: block !important;
+	}
+	.digital-mobile-hide {
+		display: none !important;
+	}
+
+	.header-digital-mob {
+		display: inline-block;
+		width: 100%;
+		vertical-align: top;
+		background-color: #ffdf4c;
+		padding: 7px 0;
+	}
+	.header-digital-mob h2 {
+		display: inline-block;
+		width: 100%;
+		vertical-align: top;
+		text-align: center;
+		font-size: 18px;
+		line-height: 24px;
+		color: #0a295f;
+		font-weight: 700;
+	}
+	.header-digital-mob .row {
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+	.header-digital-mob .row .col-xs-6 {
+		padding-left: 5px;
+		padding-right: 5px;
+		text-align: center;
+	}
+	.header-digital-mob a {
+		display: inline-block;
+		width: auto;
+		vertical-align: top;
+	}
+	.header-digital-mob img {
+		max-width: 100%;
+	}
+	.header-digital-mob.digital-mob-hide {
+		position: relative;
+	}
+	.header-digital-mob.digital-tab-hide {
+		display: none;	
+	}
+
+	.header-digital-mob.digital-mob-hide .row .col-xs-6 {
+		padding-right: 90px;
+	}
+	.header-digital-mob.digital-mob-hide .row .col-xs-6 + .col-xs-6 {
+		padding-right: 0;
+		padding-left: 90px;
+	}
+	.header-digital-mob.digital-mob-hide h2 {
+		position: absolute;
+		left: 0;
+		top: 6px;
+		height: 0px;
+	}
+
+}
+@media only screen and (max-width:768px) { 
+	.footer-section .our_f_center li a {
+		margin: 0;
+	}
+	.footer-section .copyright-section .footer-copyright {
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.footer-section .copyright-section .footer-social {
+		width: 100%;
+		text-align: center;
+	}
+	.footer-section .copyright-section .footer-copyright p {
+		width: 100%;
+		text-align: center;
+	}
+	.footer-section .copyright-section .footer-social ul {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.footer-section .copyright-section .footer-social ul li {
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		padding: 0 5px;
+	}
+	.footer-section .copyright-section .footer-social ul li:after {
+		display: none;
+	}
+
+	.footer-section .address-block .address-box.phone {
+		border-bottom: 1px solid #000;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+	}
+	.footer-section .terms-section {
+		padding: 10px 0;
+	}
+	.header-top.new {
+		position: relative;
+		top: 0;
+		display: block;
+		background-color: #fed34f;
+	}
+	.header-top.new .new-center-cnt {
+		top: 0;
+		line-height: 20px;
+	}
+	.header-top.new .center-cnt {
+		padding-top: 0;
+		padding-bottom: 3px;
+	}
+	.header-top.new .center-cnt .cnt-inner {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 5px;
+		font-size: 12px;
+	}
+	.header-top.new .center-cnt .cnt-inner.right {
+		margin-bottom: 0;
+	}
+
+}
+
+@media only screen and (max-width:767px) {
+	.explore-update-section .explore-box .explore-title h2  {
+		text-align:center;
+	}
+	.online-store-block {
+		text-align: center;
+	}
+	.online-store-block a {
+		float:  none;
+		display: inline-block;
+		vertical-align: top;
+
+	}
+	.online-store-block a + a {
+		float: none;
+		margin: 0;
+	}
+	.explore-update-section .app-icon-block {
+		text-align: center;
+	}
+
+	.header-top {
+		position: fixed;
+		left: 0;
+		bottom: -150px;
+		width: 100%;
+		z-index: 100;
+		transition: all 1s ease-in-out;
+		-moz-transition: all 1s ease-in-out;
+		-webkit-transition: all 1s ease-in-out;
+		background-color: transparent;
+	}
+	.header-top.show {
+		bottom: 0;
+		z-index: 1111;
+	}
+	.header-top.show.hide {
+		bottom: -150px !important;
+	}
+
+	.header-fixed .header-fixed-shrink .header-top {
+		bottom: 0;
+	}
+	.header-fixed .header-v8.header-fixed-shrink .header-top {
+		margin-top: 0px;
+	}
+
+	.header-top .center-cnt {
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		margin: 10px 0 5px 0;
+		height: auto;
+	}
+	.header-top .center-cnt a {
+		margin: 0;
+	}
+	.header-top .allen-digital-footer {
+		display: block;
+	}
+	.header-top .allen-digital-footer a {
+		display: inline-block;
+		width: 100%;
+		vertical-align: top;
+	}
+	.header-top .allen-digital-footer img {
+		display: block;
+		width: 100%;
+	}
+	.header-top .mobile-hide {
+		display: none;
+	}
+	.header-top .header-top-crose {
+		display: block;
+	}
+	.about-allen-section {
+		padding: 15px 0;
+	}
+	.alumni-new-section .alumni-inner {
+		background-size: auto 50%;
+		padding: 15px 150px 15px 20px;
+		background-position: calc(100% - 10px) center;
+	}
+	.alumni-new-section {
+		padding: 20px 0;
+	}
+	.scholarship-allen-section .scholarship-block {
+		width: 100%;
+	}
+	.scholarship-allen-section .scholarship-block h2 {
+		font-size: 16px;
+		margin-bottom: 10px;
+		font-weight: 700;
+	}
+	.about-blog-section {
+		padding: 20px 0;
+	}
+	.new-heading  {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.new-heading span {
+		font-size: 24px;
+	}
+	.allen-app-section {
+		padding: 20px 0 0 0;
+	}
+	.allen-app-section .app-cont {
+		padding: 0 0 20px 0;
+		text-align: center;
+	}
+	.allen-app-section .app-cont .btn-outer a, .allen-app-section .app-cont .btn-outer .btn {
+		margin: 5px 2px;
+	}
+	.allen-app-section .app-cont h2 {
+		font-size: 24px;
+		line-height: 34px;
+	}
+	.scholarship-allen-section .scholarship-block .owl-nav button {
+		width: 24px;
+		height: 24px;
+	}
+	.scholarship-allen-section .scholarship-block .owl-nav button span {
+		font-size: 26px;
+		line-height: 18px;
+	}
+	.scholarship-allen-section .scholarship-inner-section {
+		background-image: none;
+		padding: 15px;
+		border-radius: 15px;
+		-moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
+	}
+	.intellibrain-section {
+		padding: 20px 0;
+	}
+	.intellibrain-section h2 {
+		font-size: 20px;
+		line-height: 24px;
+		text-align: center;
+	}
+	.newsletter-newsection .newsletter-inner:before {
+		display: none;
+	}
+	.newsletter-newsection .newsletter-inner {
+		padding: 0;
+		text-align: center;
+	}
+	.newsletter-newsection .newsletter-inner .newsletter {
+		max-width: 100%;
+	}
+	.newsletter-newsection .ecom-block .ecom-inner {
+		margin-top: 20px;
+	}
+	.allen-estore-section .estore-outer {
+		display: inline-block;
+		width: 100%;
+		vertical-align: top;
+	}
+	.allen-estore-section .estore-outer .estore-block {
+		display: inline-block;
+		width: 100%;
+		vertical-align: top;
+	}
+	.allen-estore-section .estore-outer .other-store {
+		display: inline-block;
+		width: 100%;
+		vertical-align: top;
+	}
+	.newsletter-newsection.new {
+		padding: 20px 0;
+	}
+	.header-digital-mob.digital-mob-hide {
+		display: none;
+	}
+	.header-digital-mob.digital-tab-hide {
+		display: block;	
+	}
+	.top-menu-padding .mob-hide {
+		display: none;
+	}
+	.header-top.new-block .center-cnt {
+		display: flex;
+		padding: 0;
+		margin: 0;
+	}
+	.header-top.new-block .container {
+		padding: 0;
+	}
+
+	.header-top.new-block .center-cnt .cnt-inner {
+		margin: 0;
+		border-radius: 0;
+		padding: 7px 3px;
+	}
+	
+	.col-border{
+	border-right: none;
+}
+
+
+
+}
+
+@media only screen and (max-width:575px) {
+	.header-top.new-block .center-cnt .cnt-inner span.inner-text {
+		display: inline-block;
+		width: 100%;
+		vertical-align: top;
+		margin-bottom: 3px;
+		font-size: 11px;
+        line-height: 16px;
+	}
+	.header-top.new-block .center-cnt .cnt-inner {
+		padding: 7px 3px 9px;
+	}
+	.header-top.new-block .center-cnt a {
+		margin: 0;
+	}
+
+}
+
+@media only screen and (max-width:475px) {
+	.footer-section .footer-new-wrp .heading_nf {
+		font-size: 13px;
+		line-height: 20px;
+		margin-bottom: 3px;
+	}
+	.footer-section .footer-new-wrp ul.f_links li a {
+		padding: 1px 0;
+	}
+	.footer-section .footer-new-wrp ul.f_links li {
+		padding-left: 12px;
+	}
+	.footer-section .footer-new-wrp ul.f_links li:after {
+		top: 11px;
+	}
+	.alumni-new-section .alumni-inner {
+		background-size: 75% auto;
+		padding: 15px 15px 180px 15px;
+		background-position: center bottom;
+		border-radius: 15px;
+		-moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
+	}
+	.about-blog-section .tab-section .tabs ul li {
+		padding: 0;
+	}
+	.about-blog-section .tab-section .tabs ul li a {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.about-allen-section .right-section .two-block {
+		margin-top: 0;
+	}
+	.about-allen-section .right-section .two-block .counter-box, .about-allen-section .right-section .two-block.three .counter-box {
+		width: 100%;
+		margin: 5px 0;
+		height: auto;
+	}
+	.about-allen-section .right-section .two-block .counter-box .icon {
+		margin: 15px 0;
+	}
+	.about-allen-section .right-section .two-block.three .counter-box .icon {
+		margin: 20px 0;
+	}
+	.scholarship-allen-section .scholarship-block h2 {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.bg-grey-outer .nav-tabs > li > a {
+		padding: 10px 7px !important;
+		font-size: 12px;
+	}
+	.bg-grey-outer .bg-grey {
+		padding: 0 8px;
+	}
+	.allen-estore-section .estore-outer .other-store h2,
+	.allen-estore-section .estore-outer .other-store p {
+		margin-bottom: 10px;
+	}
+	.allen-estore-section .estore-outer .other-store .store a {
+		margin-bottom: 0;
+	}
+} 
+
+@media only screen and (max-width:359px) {
+	/*.header-top .right-link p {
+		display: none;
+	}*/
+}
+
+
+
+
+

@@ -1,0 +1,1478 @@
+/*-----------new css start heer 27-03-24------------*/
+.about-allen-section.new {
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.about-allen-section.new .right-section {
+    width: 100%;
+}
+
+.about-allen-section.new .right-section .two-block {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 0;
+}
+
+.about-allen-section.new .right-section .two-block .counter-box {
+    width: 20%;
+    margin: 0;
+    background-color: #f2f7fe;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    height: auto;
+}
+.about-allen-section.new .right-section .two-block .counter-box.light {
+    background-color: #fff9f1;
+}
+
+.newsletter-newsection.new2 {
+    background: var(--primary-gradient,linear-gradient(90deg,#014db0 0,#0487f3 100%));
+    padding: 10px 0;
+}
+.newsletter-newsection.new2 .newsletter-inner {
+    padding-left: 0;
+    padding-top: 0;
+}
+.newsletter-newsection.new2 .newsletter-inner:before {
+    display: none;
+}
+.newsletter-newsection.new2 .newsletter-inner .newsection-cnt {
+    float: left;
+    width: 55%;
+}
+.newsletter-newsection.new2 .newsletter-inner .newsletter {
+    float: left;
+    width: 45%;
+    padding-left: 20px;
+    max-width: 100%;
+}
+.newsletter-newsection.new2 .newsletter-inner h2 {
+    margin: 7px 0;
+    font-size: 18px;
+    line-height: 24px;
+}
+.newsletter-newsection.new2 .newsletter-inner .newsletter .input-group {
+    height: 38px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+.newsletter-newsection.new2 .newsletter-inner .newsletter .input-group .form-control {
+    height: 38px;
+    width: calc(100% - 44px)
+}
+.newsletter-newsection.new2 .newsletter-inner .newsletter .input-group .input-group-btn .btn-u {
+    margin: 2px 0 0 8px;
+    width: 34px;
+    height: 34px;
+}
+.newsletter-newsection.new2 .newsletter-inner p {
+    margin-bottom: 0;
+}
+
+
+.scholarship-allen-section.new .scholarship-inner-section {
+    background-image: none;
+    padding: 20px;
+}
+.scholarship-allen-section.new .scholarship-block {
+    width: 100%;
+}
+
+.about-blog-section .blog-inner {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.legend-gallery-section {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background-color: #264796;
+    padding: 20px 0 10px 0;
+    position: relative;
+}
+.legend-gallery-section .legend-gallery {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+.legend-gallery-section .legend-gallery img {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    border-radius: 5px;
+}
+.legend-gallery-section .legend-cnt-outer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    vertical-align: top;
+    background: linear-gradient(90deg,#264796 28%,rgba(1,77,176,.9) 45.62%,hsla(0,0%,100%,0));
+    padding: 120px 0 20px;
+}
+.legend-gallery-section .legend-cnt-outer h2 {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    color: #fff;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 700;
+}
+.legend-gallery-section .legend-cnt-outer p {
+    display: inline-block;
+    width: 100%;
+    max-width: 440px;
+    vertical-align: top;
+    color: #fff !important;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+}
+.legend-gallery-section .legend-cnt-outer p span {
+    font-weight: 800;
+}
+.legend-gallery-section .legend-cnt-outer .btn-outer {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.legend-gallery-section .legend-cnt-outer .btn-outer a {
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 30px 12px;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    font-weight: 400;
+}
+.legend-gallery-section .legend-cnt-outer .btn-outer a:hover {
+    background: #000;
+    color: #fff;
+}
+.allen-app-section.new img {
+    width: 100%;
+    display: block;
+}
+.allen-app-section.new .container:after {
+    display: none;
+}
+.app-section2 {
+    margin: 0 0 30px 0;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+.app-section2 .row {
+    display: flex;
+}
+.app-section2 .row .col-md-6 {
+    margin-top: 30px;
+}
+.app-section2 .app-block {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background-color: #fff1e0;
+    padding: 15px 15px 60px 15px;
+    border-radius: 10px;
+    height: 100%;
+    min-height: 200px;
+    position: relative;
+}
+.app-section2 .app-block.bg2 {
+    background-color: #ebf1ff;
+}
+.app-section2 .app-block.bg3 {
+    background-color: #fdeefa;
+}
+.app-section2 .app-block.bg4 {
+    background-color: #d9f3ff;
+}
+.app-section2 .app-block h2 {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    color: #233b77;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 0 6px 0;
+}
+.app-section2 .app-block p {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+.app-section2 .app-block .btn-block {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    width: 100%;
+    padding: 0 15px;
+}
+.app-section2 .app-block .btn-block a {
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+}
+.app-section2 .app-block .btn-block .app-btn {
+    background-color: #1a76ef;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 9px 15px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    min-width: 120px;
+    transition: all 0.5s ease-in-out;
+}
+.app-section2 .app-block .btn-block .app-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.app-section2 .app-block .btn-block a img {
+    display: block;
+    width: auto;
+    margin-left: 7px;
+}
+.app-section2 .app-block.apps {
+    padding-right: 220px;
+}
+.app-section2 .app-block.apps .app-image {
+    position: absolute;
+    right: 10px;
+    top: -15px;
+    width: 120px;
+    height: 180px;
+    z-index: 1;
+}
+.app-section2 .app-block.apps .app-image img {
+    display: block;
+    width: 100%;
+}
+
+.legends-section {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 10px 0 30px;
+}
+.legends-section .playlist-cnt {
+    display: flex;
+    width: 100%;
+    vertical-align: top;
+    flex-wrap: wrap;
+    column-gap: 15px;
+}
+.legends-section .playlist-cnt .legends-video {
+    display: inline-block;
+    width: calc(25% - 11.3px);
+    vertical-align: top;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    margin-top: 15px;
+}
+.legends-section .playlist-cnt .legends-video:after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 34px;
+    height: 34px;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+    background-image: url("https://www.allen.ac.in/assets/img/new-homepage/youtube-btn.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    margin: -17px 0 0 -17px;
+    opacity: 0;
+    visibility: hidden;
+    content: "";
+    transition: all 0.5s ease-in-out;
+}
+.legends-section .playlist-cnt .legends-video:hover:after {
+    opacity: 1;
+    visibility: visible;
+}
+.legends-section .playlist-cnt .legends-video:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #000;
+    opacity: 0;
+    visibility: hidden;
+    content: "";
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px;
+}
+.legends-section .playlist-cnt .legends-video:hover:before{
+    opacity: 0.3;
+    visibility: visible;
+}
+.legends-section .playlist-cnt .legends-video .full-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+.legends-section .playlist-cnt .legends-video img {
+    display: block;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.legends-section .playlist-cnt .legends-video .ytitle {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    font-weight: 400;
+}   
+.legends-section .row {
+    display: flex;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+.legends-section .row .col-md-3 {
+    padding: 0 7px;
+    margin-top: 14px;
+}
+
+
+.container-wall-feed  {
+    background-color: transparent !important;
+}
+
+.ekko-lightbox .modal-header {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 4;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #020202;
+    border-radius: 50%;
+    margin: -10px -10px 0 0;
+}
+.ekko-lightbox .modal-header .close {
+    margin: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 28px;
+    opacity: 1;
+}
+.ekko-lightbox .modal-dialog {
+    display: flex;
+    height: calc(100% - 20px);
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px !important;
+}
+.ekko-lightbox .modal-dialog .modal-content {
+    width: calc(100% - 20px);
+}
+.ekko-lightbox .modal-dialog .modal-body {
+    padding: 5px;
+}
+
+
+
+.course-new.new .course-box {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ebf0fb+0,fefeff+100 */
+    background: linear-gradient(to bottom,  #ebf0fb 0%,#fefeff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border:none;
+}
+.course-new.new .course-box .rounded-x {
+    background: none !important;
+    padding: 15px 0 0 0 !important;
+}
+.course-new.new .course-box .right-section {
+    text-align: left;
+}
+.course-new.new .right-section .btn-outer {
+    text-align: left;
+    left: 10px;
+    right: 10px;
+}
+.course-new.new .course-box .right-section a {
+    border-radius: 0;
+    background-color: #FFCA63;
+    color: #000;
+    font-size: 12px;
+    line-height: 18px;
+    min-width: 100px;
+    text-align: center;
+    padding: 5px 10px;
+}
+.course-box-outer.new .row {
+    margin-left: -5px;
+    margin-right: -5px;
+    justify-content: flex-start;
+}
+.course-box-outer.new .row .col-xs-12 {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 15px;
+}
+.course-new.new .course-box .right-section p {
+    color: #666666;
+    font-weight: 400 !important;
+}
+
+.about-progress-section {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin-top: 80px;
+}
+.about-progress-section .about-progress-inner {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    position: relative;
+}
+.about-progress-section .about-progress-inner .progress-cnt {
+    display: inline-block;
+    width: 67%;
+    max-width: 700px;
+    vertical-align: top;
+    padding-right: 15px;
+    margin: 40px 0 50px 0;
+}
+.about-progress-section .about-progress-inner .progress-cnt h2 {
+    font-size: 28px;
+    line-height: 40px;
+    color: #000;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+.about-progress-section .about-progress-inner .progress-cnt .progress-block {
+    display: flex;
+    column-gap: 20px;
+    width: 100%;
+    padding: 10px 0 0 0;
+    position: relative;
+}
+.about-progress-section .about-progress-inner .progress-cnt .progress-block:after {
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    width: 1px;
+    height: 100%;
+    background-color: #666666;
+    content: "";
+    display: block;
+}
+.about-progress-section .about-progress-inner .progress-cnt .progress-block .progress-col-2 {
+    width: calc(50% - 10px);
+}
+.about-progress-section .about-progress-inner .progress-cnt .progress-block .progress-col-2 h3 {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    line-height: 60px;
+    color: #264796;
+    font-weight: 600;
+}
+.about-progress-section .about-progress-inner .progress-cnt .progress-block .progress-col-2 p {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    font-weight: 400 !important;
+}
+.about-progress-section .about-progress-inner .progress-box-cnt {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 33%;
+    max-width: 300px;
+    background-color: #FFCA63;
+    padding: 10px;
+}
+.about-progress-section .about-progress-inner .progress-box-cnt ul {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 10px 0 0 10px;
+}
+.about-progress-section .about-progress-inner .progress-box-cnt ul li {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    list-style: none;
+    padding: 0 0 0 50px;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+.about-progress-section .about-progress-inner .progress-box-cnt ul li:last-child {
+    margin-bottom: 0;
+}
+.about-progress-section .about-progress-inner .progress-box-cnt ul li:before {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 30px;
+    height: 30px;
+    content: "";
+    background-image: url("https://www.allen.ac.in/assets/img/new-homepage/progress-arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+.about-progress-section .about-progress-inner .progress-box-cnt ul li h3 {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    font-size: 34px;
+    line-height: 40px;
+    color: #000;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.about-progress-section .about-progress-inner .progress-box-cnt ul li p {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    font-weight: 400 !important;
+}
+.talent-blog-section {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.talent-blog-section .talent-block {
+    display: flex;
+    width: 100%;
+    column-gap: 20px;
+    margin-top: 10px;
+}
+.talent-blog-section .talent-block .talent-col-2 {
+    width: 50%;
+    background: linear-gradient(to bottom,  #eaeffb 0%,#fefeff 100%);
+    padding: 20px 240px 60px 20px;
+    border-radius: 10px;
+    border: 1px solid #E9E9E9;
+    position: relative;
+    overflow: hidden;
+}
+.talent-blog-section .talent-block .talent-col-2 h4 {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    font-weight: 600;
+    padding: 0;
+    margin: 4px 0 0 0;
+}
+.talent-blog-section .talent-block .talent-col-2 .talent-icon {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 0 0 5px 0;
+}
+.talent-blog-section .talent-block .talent-col-2 .talent-icon img {
+    width: auto;
+    max-width: 160px;
+}
+.talent-blog-section .talent-block .talent-col-2 p {
+    display: inline-block;
+    width: 100%;
+    max-width: 330px;
+    vertical-align: top;
+    margin: 5px 0 0 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666666;
+    font-weight: 400 !important;
+}
+.talent-blog-section .talent-block .talent-col-2 p span {
+    font-weight: 700 !important;
+    color: #000;
+}
+.talent-blog-section .talent-block .talent-col-2 .btn-outer {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    width: 100%;
+    padding: 0 20px;
+    z-index: 2;
+}
+.talent-blog-section .talent-block .talent-col-2 .btn-outer a {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 10px;
+    height: 28px;
+    min-width: 100px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    text-align: center;
+}
+.talent-blog-section .talent-block .talent-col-2 .talent-image {
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    z-index: 1;
+    width: 260px;
+    height: 175px;
+}
+.talent-blog-section .talent-block .talent-col-2.tallentex .talent-image {
+    width: 180px;
+    height: 195px;
+    bottom: auto;
+    top: 0;
+    right: 20px;
+}
+.talent-blog-section .talent-block .talent-col-2 .talent-image img {
+    width: 100%;
+}
+.app-allen-section {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 40px 0 0 0;
+    position: relative;
+    overflow: hidden;
+}
+.app-allen-section:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    content: "";
+    background: linear-gradient(to bottom,  #e2e2e2 0%,#e8e8e8 100%);
+}
+.app-allen-section:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    content: "";
+    background: linear-gradient(to bottom,  #192437 0%,#45649b 100%);
+}
+
+.allen-abroad-section {
+    margin-top: 0;
+}
+.allen-abroad-section:before {
+    background: linear-gradient(to bottom,  #FFCA63 0%,#FFCA63 100%);
+}
+.allen-abroad-section:after {
+    background: linear-gradient(to bottom,  #FFFFFF 0%,#E9E9E9 100%);
+}
+.app-allen-section .app-block {
+    display: flex;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.app-allen-section .app-block .app-box {
+    width: 50%;
+    padding: 40px 240px 110px 0;
+    position: relative;
+}
+.app-allen-section .app-block .app-box.digital, .app-allen-section .app-block .app-box.estore {
+    padding-left: 20px;
+}
+.app-allen-section .app-block .app-box:before {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    width: 270px;
+    height: 133px;
+    content: "";
+    background-image: url("https://www.allen.ac.in/assets/img/new-homepage/app-shade.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+.app-allen-section .app-block .app-box .app-image {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    width: 240px;
+    height: 209px;
+    z-index: 1;
+}
+.app-allen-section .app-block .app-box .app-image img {
+    display: block;
+    width: 100%;
+}
+.app-allen-section .app-block .app-box h2 {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    font-weight: 600;
+}
+.app-allen-section .app-block .app-box p {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666666;
+    font-weight: 400 !important;
+}
+.app-allen-section .app-block .app-box.digital h2, .app-allen-section .app-block .app-box.digital p {
+    color: #fff;
+}
+.app-allen-section .app-block .app-box .btn-outer {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    z-index: 1;
+}
+.app-allen-section .app-block .app-box.digital .btn-outer,
+.app-allen-section .app-block .app-box.estore .btn-outer {
+    left: 20px;
+}
+.app-allen-section .app-block .app-box .btn-outer img {
+    max-width: 100px;
+}
+.app-allen-section .app-block .app-box .btn-outer a {
+    text-decoration: none;
+}
+.allen-abroad-section .app-block .app-box:before {
+    display: none;
+}
+.allen-abroad-section .app-block .app-box .app-image {
+    width: 186px;
+    height: 170px;
+    right: 0;
+    bottom: 0;
+}
+.allen-abroad-section .app-block .app-box {
+   padding-bottom: 80px; 
+}
+.app-allen-section .app-block .app-box .btn-outer a + a {
+    margin-left: 4px;
+}
+
+.app-allen-section .app-block .app-box .btn-outer .app-btn {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 10px;
+    height: 28px;
+    min-width: 100px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.new-btn-outer .new-btn {
+    position: relative;
+}
+.new-btn-outer .new-btn span {
+    position: relative;
+    z-index: 2;
+}
+.new-btn-outer .new-btn:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 0;
+    height: 100%;
+    background-color: rgba(254, 254, 254, 0.4);
+    content: "";
+    transition: all 0.3s ease-in-out;
+}
+.new-btn-outer .new-btn:hover:after {
+    max-width: 100%;
+}
+
+.footer-section.new .footer-new-wrp .footer-heading {
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    color: #fefefe;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.footer-section.new .footer-new-wrp .footer-row {
+    display: flex;
+    column-gap: 30px;
+}
+.footer-section.new .footer-new-wrp .footer-row .footer-cal-2 {
+    width: 50%;
+}
+.footer-section.new ul.f_links {
+    font-size: 12px;
+    line-height: 18px;
+}
+.footer-section.new .footer-new-wrp ul.f_links li:after {
+    top: 11px;
+}
+
+.allen-sanchar-section {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.allen-sanchar-section:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    z-index: 1;
+    height: 100%;
+    background-color: #264796;
+    content: "";
+}
+.allen-sanchar-section.newsletter-block:before {
+    width: 100%;
+}
+.allen-sanchar-section:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    z-index: 1;
+    height: 100%;
+    background: linear-gradient(to bottom,  #e2e2e2 0%,#e8e8e8 100%);
+    content: "";
+}
+.allen-sanchar-section.newsletter-block:after {
+    display: none;
+}
+.allen-sanchar-section .container {
+    position: relative;
+    z-index: 2;
+}
+.allen-sanchar-section .sanchar-block {
+    display: flex;
+    width: 100%;
+    column-gap: 20px;
+}
+.allen-sanchar-section .sanchar-block .sanchar-heading {
+    width: calc(100% - 140px);
+    padding: 12px 0;
+}
+.allen-sanchar-section .sanchar-block .sanchar-heading h2 {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 0 3px 0;
+    padding: 0;
+}
+.allen-sanchar-section .sanchar-block .sanchar-heading p {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.allen-sanchar-section .sanchar-block .new-btn-outer {
+    width: 120px;
+    margin-top: 22px;
+}
+.allen-sanchar-section .sanchar-block .new-btn-outer a {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 6px 15px;
+    height: 30px;
+    min-width: 100px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    text-align: center;
+    min-width: 120px;
+}
+.allen-sanchar-section .newsletter {
+    margin: 19px 0 18px;
+}
+.allen-sanchar-section .newsletter .form-control {
+    border-color: #E9E9E9;
+}
+.allen-sanchar-section .newsletter .btn-u {
+    background-color: #000;
+    font-weight: 600;
+}
+
+.allen-sanchar-section .sanchar-block .new-btn-outer a i {
+    color: red;
+    margin: 2px 3px 0 0;
+    font-size: 15px;
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+}
+
+.course-new.new .course-box.course-heading {
+    background: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+}
+.course-new.new .course-box.course-heading .new-heading {
+    font-size: 44px;
+    line-height: 50px;
+    color: #264796;
+    margin: 0;
+    font-weight: 700;
+}
+.course-new.new .course-box.course-heading .new-heading span {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+}
+.breadcrumbs h1 p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 0;
+}
+
+.legends-section .playlist-cnt
+
+
+
+/*responsive css start here*/
+
+@media only screen and (max-width:1199px) {
+    .app-section2 .app-block.apps {
+        padding-right: 175px;
+    }
+    .about-progress-section .about-progress-inner .progress-cnt .progress-block:after {
+        margin-left: -40px;
+    }
+    .talent-blog-section .talent-block .talent-col-2 {
+        padding: 15px 170px 55px 15px;
+    }
+    .talent-blog-section .talent-block .talent-col-2 .talent-image {
+        width: 220px;
+        height: 150px;
+    }
+    .talent-blog-section .talent-block .talent-col-2.tallentex .talent-image {
+        width: 150px;
+        height: 170px;
+        right: 0;
+    }
+    .app-allen-section .app-block .app-box {
+        padding: 20px 240px 80px 0;
+    }
+    .app-allen-section.allen-abroad-section .app-block .app-box {
+        padding: 20px 170px 80px 0;
+    }
+    .app-allen-section .app-block .app-box.digital, .app-allen-section .app-block .app-box.estore {
+        padding-left: 15px;
+    }
+    .app-allen-section .app-block .app-box.digital .btn-outer, .app-allen-section .app-block .app-box.estore .btn-outer {
+        left: 15px;
+    }
+    .allen-abroad-section .app-block .app-box .app-image {
+        width: 150px;
+        height: 138px;
+    }
+    .allen-abroad-section .app-block .app-box.estore .app-image {
+        bottom: 50px;
+    }
+    .allen-sanchar-section .sanchar-block {
+        column-gap: 5px;
+    }
+    .footer-section.new .footer-new-wrp .footer-heading {
+        font-size: 14px;
+        line-height: 20px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .about-allen-section.new .right-section {
+        margin-top: 0;
+    }
+    .scholarship-allen-section.new .scholarship-inner-section {
+        padding: 10px;
+    }
+    .scholarship-allen-section .container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .app-section2 {
+        margin-top: 15px;
+    }
+    .app-section2 .row {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .app-section2 .row .col-md-6 {
+        margin-top: 15px;
+    }
+    .app-section2 .app-block {
+        height: auto;
+        min-height: 1px;
+    }
+    .app-section2 .app-block.apps {
+        min-height: 175px;
+        padding-right: 150px;
+    }
+    .app-section2 .app-block.apps .app-image {
+        width: 100px;
+        height: 160px;
+        top: -5px;
+    }
+    .newsletter-newsection.new2 .newsletter-inner .newsection-cnt {
+        width: 50%;
+    }
+    .newsletter-newsection.new2 .newsletter-inner .newsletter {
+        width: 50%;
+        padding-left: 10px;
+    }
+    .legends-section {
+        margin: 0 0 20px;
+    }
+    .legends-section .playlist-cnt .legends-video .ytitle {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .legends-section .row {
+        display: flex;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .legends-section .row .col-md-3 {
+        padding: 0 5px;
+        margin-top: 10px;
+    }
+    .about-progress-section {
+        margin-top: 30px;
+    }
+    .about-progress-section .about-progress-inner .progress-cnt h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .about-progress-section .about-progress-inner .progress-cnt .progress-block .progress-col-2 h3 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .about-progress-section .about-progress-inner .progress-cnt .progress-block .progress-col-2 p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .about-progress-section .about-progress-inner .progress-box-cnt ul {
+        padding: 10px 0 0 5px;
+    }
+    .about-progress-section .about-progress-inner .progress-box-cnt ul li {
+        padding-left: 44px;
+        margin-bottom: 10px;
+    }
+    .about-progress-section .about-progress-inner .progress-box-cnt ul li h3 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .about-progress-section .about-progress-inner .progress-box-cnt ul li p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .about-progress-section .about-progress-inner .progress-cnt .progress-block:after {
+        margin-left: -30px;
+    }
+    .talent-blog-section .talent-block {
+        column-gap: 5px;
+    }
+    .talent-blog-section .talent-block .talent-col-2 {
+        padding: 10px 140px 55px 15px;
+    }
+    .talent-blog-section .talent-block .talent-col-2 .talent-image {
+        width: 150px;
+        height: 100px;
+    }
+    .talent-blog-section .talent-block .talent-col-2.tallentex .talent-image {
+        width: 100px;
+        height: 135px;
+        right: 0;
+    }
+    .app-allen-section .app-block .app-box {
+        padding: 15px 15px 120px 0;
+    }
+    .app-allen-section .app-block .app-box:before {
+        width: 140px;
+        height: 68px;
+        right: 5px;
+    }
+    .app-allen-section .app-block .app-box .app-image {
+        width: 170px;
+        height: 130px;
+        right: 0;
+    }
+    .app-allen-section .app-block .app-box .btn-outer {
+        bottom: 20px;
+    }
+    .app-allen-section.allen-abroad-section .app-block .app-box {
+        padding: 15px 15px 80px 0;
+    }
+    .app-allen-section .app-block .app-box.digital, .app-allen-section .app-block .app-box.estore {
+        padding-left: 15px;
+    }
+    .allen-abroad-section .app-block .app-box.estore .app-image {
+        display: none;
+    }
+    .allen-abroad-section.allen-abroad-section .app-block .app-box .app-image {
+        width: 120px;
+        height: 110px;
+    }
+    .allen-sanchar-section:before {
+        width: 100%;
+    }
+    .allen-sanchar-section .sanchar-block {
+        border-bottom: 1px solid #000;
+    }
+    .allen-sanchar-section .newsletter {
+        margin: 15px 0;
+    }
+    .allen-sanchar-section:after {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .about-allen-section.new {
+        padding: 5px 0 15px 0;
+        margin-top: 20px;
+    }
+    .about-allen-section.new .right-section .two-block {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .about-allen-section.new .right-section .two-block .counter-box {
+        width: calc(33.333% - 7px);
+        margin-top: 10px;
+    }
+    .legend-gallery-section .legend-cnt-outer {
+        background: linear-gradient(90deg,#014db0 35%,rgba(1,77,176,.9) 70.62%,hsla(0,0%,100%,0));
+    }
+    .scholarship-allen-section.new .scholarship-inner-section {
+        padding: 5px;
+    }
+    .app-section2 .app-block p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .app-section2 .app-block .btn-block .app-btn {
+        min-width: 85px;
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+    .app-section2 .app-block .btn-block a img {
+        margin-left: 2px;
+        max-width: 96px;
+    }
+    .newsletter-newsection.new2 .newsletter-inner .newsection-cnt {
+        width: 100%;
+    }
+    .newsletter-newsection.new2 .newsletter-inner .newsletter {
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 0;
+    }
+    .app-section2 .app-block h2 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .legends-section .row {
+        flex-wrap: wrap;
+    }
+    .about-progress-section .about-progress-inner .progress-cnt .progress-block:after {
+        margin-left: -15px;
+    }
+    .about-progress-section .about-progress-inner .progress-box-cnt ul {
+        padding-left: 0;
+    }
+    .about-progress-section .about-progress-inner .progress-cnt {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 15px 0;
+    }
+    .about-progress-section .about-progress-inner .progress-box-cnt {
+        position: relative;
+        width: calc(100% + 30px);
+        max-width: calc(100% + 30px);
+        margin-left: -15px;
+        padding: 10px 15px;
+    }
+    .about-progress-section .about-progress-inner .progress-cnt h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .about-progress-section .about-progress-inner .progress-cnt .progress-block .progress-col-2 h3 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .about-progress-section .about-progress-inner .progress-box-cnt ul {
+        display: flex;
+        column-gap: 10px;
+    }
+    .about-progress-section .about-progress-inner .progress-box-cnt ul li {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    .about-progress-section .about-progress-inner .progress-box-cnt ul li:before {
+        display: none;
+    }
+    .about-progress-section .about-progress-inner .progress-box-cnt ul li p {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .about-progress-section .about-progress-inner .progress-cnt .progress-block .progress-col-2 p {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .talent-blog-section {
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    .talent-blog-section .talent-block {
+        column-gap: 0;
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+    }
+    .talent-blog-section .talent-block .talent-col-2 {
+        width: 100%;
+        padding: 10px 15px 60px 15px;
+    }
+    .talent-blog-section .talent-block .talent-col-2 .btn-outer {
+        padding: 0 15px;
+    }
+    .talent-blog-section .talent-block .talent-col-2 + .talent-col-2 {
+        margin-top: 10px;
+    }
+    .talent-blog-section .talent-block .talent-col-2 h4 {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+    .app-allen-section .app-block {
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+    }
+    .app-allen-section .app-block .app-box {
+        width: 100%;
+        background: linear-gradient(to bottom,  #e2e2e2 0%,#e8e8e8 100%);
+    }
+    .app-allen-section .app-block .app-box.digital {
+        background: linear-gradient(to bottom,  #192437 0%,#45649b 100%);
+    }
+
+    .app-allen-section:before, .app-allen-section:after {
+        display: none;
+    }
+    .app-allen-section .app-block .app-box .app-image {
+        width: 140px;
+        height: 110px;
+    }
+    .app-allen-section.allen-abroad-section .app-block .app-box {
+        background: linear-gradient(to bottom,  #FFCA63 0%,#FFCA63 100%);
+        padding-left: 15px;
+    }
+    .app-allen-section.allen-abroad-section .app-block .app-box.estore {
+        background: linear-gradient(to bottom,  #e2e2e2 0%,#e8e8e8 100%);
+    }
+    .newsletter-newsection.new2 .newsletter-inner h2 {
+        margin: 0;
+    }
+    .app-allen-section.allen-abroad-section .app-block .app-box p {
+        max-width:  400px; 
+    }
+    .footer-section.new .footer-new-wrp .footer-row {
+        display: none;
+        width: 100%;
+        vertical-align: top;
+    }
+    .footer-section.new .footer-new-wrp .footer-row .footer-cal-2 {
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+        border-top: none;
+    }
+    .footer-section.new .footer-new-wrp .footer-heading {
+        margin: 0;
+        padding: 8px 0 9px;
+        position: relative;
+    }
+    .footer-section.new .footer-new-wrp .footer-row .footer-cal-2 + .footer-cal-2 {
+        
+        margin-top: -8px;
+        padding-top: 0;
+    }
+    .footer-section.new .footer-new-wrp ul.f_links {
+        display: block;
+        border-top: none;
+    }
+    .footer-section.new .footer-new-wrp .footer-heading:after {
+        font: normal normal normal 24px/20px FontAwesome;
+        content: "\f107";
+        position: absolute;
+        right: 3px;
+        top: 7px;
+        z-index: 1;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .footer-section.new .footer-new-wrp .footer-heading.active:after {
+        content: "\f106";
+    }
+    .footer-section.new .address-block {
+        border-top: none;
+    }
+    .legend-gallery-section .legend-cnt-outer h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .legend-gallery-section .legend-cnt-outer p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .app-allen-section .app-block .app-box {
+        padding-left: 15px;
+    }
+    .app-allen-section .app-block .app-box .btn-outer {
+        left: 15px;
+    }
+    .course-new.new .course-box.course-heading .new-heading {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .course-new.new .course-box.course-heading .new-heading span { 
+        width: auto;
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .legends-section .playlist-cnt {
+        column-gap: 10px;
+    }
+    .legends-section .playlist-cnt .legends-video {
+        width: calc(33.333% - 6.7px);
+        margin-top: 10px;
+    }
+    
+
+    
+    
+}
+
+@media only screen and (max-width:475px) {
+    .about-allen-section.new .right-section .two-block .counter-box {
+        width: calc(50% - 5px);
+        margin-top: 10px;
+    }
+    .legend-gallery-section .legend-cnt-outer {
+        padding: 70px 0 20px;
+    }
+    .app-section2 .app-block.apps {
+        padding-right: 100px;
+    }
+    .app-allen-section .app-block .app-box .btn-outer .app-btn {
+        min-width: 85px;
+    }
+    .app-allen-section .app-block .app-box .btn-outer a + a {
+        margin-left: 0;
+    }
+    .legends-section .playlist-cnt .legends-video {
+        width: calc(50% - 5px);
+    }
+}
+
+
+
+
